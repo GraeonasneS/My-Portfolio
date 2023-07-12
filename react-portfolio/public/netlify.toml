@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/App.js"
   status = 200
   force = true
   headers = {X-From = "Netlify"}
