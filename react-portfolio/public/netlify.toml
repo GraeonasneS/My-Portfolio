@@ -1,7 +1,4 @@
 [[redirects]]
   from = "/*"
-  to = "/App.js"
+  to = "../src/index.js"
   status = 200
-  force = true
-  headers = {X-From = "Netlify"}
-  signed = "API_SIGNATURE_TOKEN"
