@@ -1,5 +1,5 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
+import barWebsite from "../assets/portfolio/barWebsite.jpg";
 import installNode from "../assets/portfolio/installNode.jpg";
 import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
@@ -10,7 +10,7 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: barWebsite,
     },
     {
       id: 2,
@@ -53,7 +53,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-lg duration-200 hover:scale-105 scale-95 pt-1.5"
+                className="rounded-lg duration-200 hover:scale-105 h-2/3 w-full scale-100 px-1.5 pt-1.5"
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
