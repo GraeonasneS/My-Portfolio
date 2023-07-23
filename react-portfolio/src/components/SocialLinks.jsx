@@ -12,8 +12,8 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      style: "rounded-tr-md",
-      href: "https://www.linkedin.com/",
+      style: "rounded-tr-md bg-blue-500",
+      href: "https://www.linkedin.com/in/grae-sensano",
     },
     {
       id: 2,
@@ -22,6 +22,7 @@ const SocialLinks = () => {
           Github <FaGithub size={30} />
         </>
       ),
+      style: "bg-gray-800",
       href: "https://www.github.com/graeonasnes",
     },
     {
@@ -31,6 +32,7 @@ const SocialLinks = () => {
           Email <HiOutlineMail size={30} />
         </>
       ),
+      style: "bg-gray-500",
       href: "https://www.gmail.com/",
     },
     {
@@ -41,7 +43,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "/resume.pdf",
-      style: "rounded-br-md",
+      style: "rounded-br-md bg-gray-500",
       download: true,
     },
   ];
@@ -53,7 +55,7 @@ const SocialLinks = () => {
           <li
             key={id}
             className={
-              "flex justify-between items-center w-40 h-14 px-4 bg-gray-500 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300" +
+              "flex justify-between items-center w-40 h-14 pl-9 pr-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300" +
               " " +
               style
             }
