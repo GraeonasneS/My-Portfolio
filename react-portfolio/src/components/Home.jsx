@@ -15,10 +15,11 @@ export const Home = () => {
             I'm an aspiring developer
           </h2>
           <p className="max-w-d text-gray-500 py-4">
-            I am a full stack web developer with a passion for learning and
-            creating. I am a recent graduate of the University of Washington
-            Full Stack Web Development Bootcamp. I am currently looking for a
-            position as a full stack web developer.
+            I am a fresh graduate from Quezon City University with a degree of
+            Bachelor of Science in Information Technology. I am a self-taught
+            developer who is passionate about learning new technologies and
+            building web applications. I am currently looking for a job that
+            will help me grow as a developer and as a person.
           </p>
           <div>
             <Link

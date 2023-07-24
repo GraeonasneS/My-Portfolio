@@ -1,10 +1,30 @@
 import React from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
+
+  const [isNavbarVisible, setIsNavbarVisible] = useState(true);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+      const isScrolledUp = prevScrollPos > currentScrollPos;
+
+      setPrevScrollPos(currentScrollPos);
+      setIsNavbarVisible(isScrolledUp || currentScrollPos === 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [prevScrollPos]);
+
   const links = [
     {
       id: 1,
@@ -29,7 +49,11 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 text-white bg-black fixed px-4 z-50">
+    <div
+      className={`flex justify-between items-center w-full h-20 transition-transform ${
+        isNavbarVisible ? "translate-y-0" : "translate-y-[-500px]"
+      } text-white fixed bg-black px-4 z-50`}
+    >
       <h1 className="text-5xl font-signature ml-2">Grae</h1>
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (

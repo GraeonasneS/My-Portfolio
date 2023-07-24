@@ -9,27 +9,27 @@ const About = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-2 border-gray-500">
-            About
+            About me
           </p>
         </div>
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          qui fugit numquam! Cum vitae temporibus molestiae dicta illum
-          laboriosam similique at mollitia nihil iusto repellat numquam eos illo
-          perspiciatis a unde minima commodi id cupiditate laborum iste, beatae
-          maiores. Voluptatum quisquam dignissimos tempore asperiores sit
-          ratione officiis officia alias vitae.
+          My name is Marcus Owen Grae V. Sensano, a fresh graduate of Quezon
+          City University with a degree in Bachelor of Science in Information
+          Technology. I am a former project manager of my capstone team and a
+          front-end developer for the project that we made.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-          qui fugit numquam! Cum vitae temporibus molestiae dicta illum
-          laboriosam similique at mollitia nihil iusto repellat numquam eos illo
-          perspiciatis a unde minima commodi id cupiditate laborum iste, beatae
-          maiores. Voluptatum quisquam dignissimos tempore asperiores sit
-          ratione officiis officia alias vitae.
+          I like reading books and articles, playing video games and coding.
+          Throughout my academic years, I have been a project manager and a
+          developer for the projects that I got into and I have learned a lot
+          from those experiences. I am eager in learning new things and I am
+          willing to learn more. I am also a fast learner and I can adapt to new
+          environments quickly. I am also a team player and I can work with a
+          team or individually. I am also a responsible person and I can manage
+          my time well.
         </p>
       </div>
     </div>
