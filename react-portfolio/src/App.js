@@ -17,10 +17,10 @@ function App() {
       <ScrollToTop />
       {/* <SlidingElement /> */}
       <div
-        className="bg-fixed bg-center bg-cover"
+        className="bg-fixed bg-center md:bg-cover"
         style={{ backgroundImage: `url(${paraImg})` }}
       >
-        <div className="h-[500px] bg-opacity-75 flex justify-center pt-20"></div>
+        <div className="h-[300px] md:h-screen bg-opacity-75 flex justify-center"></div>
       </div>
       <SocialLinks />
       <About />

@@ -9,7 +9,7 @@ export const Home = () => {
       name="home"
       className="h-screen bg-gradient-to-b from-black to-gray-800 "
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 pt-52 md:pt-0 md:flex-row">
         <div className="flex flex-col justify-center py-6">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm an aspiring developer
@@ -35,7 +35,7 @@ export const Home = () => {
             </Link>
           </div>
         </div>
-        <div>
+        <div className="mb-52 md:mb-0 md:mt-[-50px]">
           <img
             src={MyImage}
             alt="myProfile"
